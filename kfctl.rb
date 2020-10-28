@@ -7,9 +7,8 @@ class Kfctl < Formula
   depends_on "go" => :build
 
   def install
-      system "make", "build-kfctl"
-      system "cp", "bin/kfctl", "/usr/local/bin"
-    end
+    system "make", "build-kfctl"
+    system "cp", "bin/kfctl", "/usr/local/bin"
   end
 
   test do
