@@ -8,7 +8,6 @@ class Kfctl < Formula
 
   def install
     system "make", "build"
-    system "cp", "bin/kfctl", "/usr/local/bin"
   end
 
   test do
