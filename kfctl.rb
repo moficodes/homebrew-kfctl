@@ -1,8 +1,8 @@
 class Kfctl < Formula
   desc "Install Kubeflow on Kubernetes cluster"
   homepage "https://kubeflow.org"
-  url "https://github.com/kubeflow/kfctl/archive/v1.1.0.tar.gz"
-  sha256 "b8765c128a9a0f3fabb5e77080bf4f139b0138454ea4313dbfdeb96c0adf9d39"
+  url "https://github.com/kubeflow/kfctl/archive/d959287540c3faecbf9abc3a541315794a0acc47.zip"
+  sha256 "8c0d4c70b4de36afbc9d8abdd30c98b80e49cda82abb1dfa9490831e5e66f5fb"
 
   depends_on "go" => :build
 
